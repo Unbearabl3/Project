@@ -91,7 +91,7 @@ function calculate2() {
         result2 = 'please enter a valid values';
     } else {
         if(operation2 == "sin") {
-            let radians = angle * (Math.PI / 180);
+            let radians = angle * (Math.PI / 180);  
             console.log(radians);
             result2 = Math.sin(radians).toFixed(4);
         } else if (operation2 == "cos") {
