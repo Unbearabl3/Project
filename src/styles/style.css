@@ -45,12 +45,53 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     margin-left: 40px;
     margin-right: 40px;
     max-width: 1100px;
     margin-top: 70px;
     margin-bottom: 70px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.otherPc {
+    display: none;
+    position: fixed;
+    top: 180px;
+    right: 50px;
+    width: 200px;
+    background-color: lightgreen;
+    height: 150px;
+    padding: 20px;
+
+}
+
+.burger-link_other {
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 20px;
+}
+.burgerAdditionalMenu {
+    display: none;
+    position: absolute;
+    top: 105px;
+    right: 30px;
+    width: 200px;
+    background-color: lightgreen;
+    height: 100px;
+    padding: 20px;
+    z-index: 50;
+}
+.burgerAdditionalMenu {
+    font-size: 20px;
+}
+.hidden {
+
+}
+
+.otherPc-link:hover {
+    color: blue
 }
 .main-description {
     max-width: 600px;
@@ -86,6 +127,52 @@ a:hover {
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+/* form styles */
+.formtitle {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.submit-form {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 .video {
@@ -243,3 +330,52 @@ li {
         width: 150px;
     }
 }
+
+
+/* calculator */
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .calculator h1 {
+    margin-bottom: 20px;
+  }
+  
+  .calculator input,
+  .calculator select {
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  
+  .calculator button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .calculator button:hover {
+    background-color: #218838;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+
+
+  /* calculator with tan cot sin cos */

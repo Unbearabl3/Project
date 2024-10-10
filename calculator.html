@@ -40,19 +40,36 @@
         <li class="otherPc-link"><a href="calculator.html">Calculator</a></li>
         <li class="otherPc-link"><a href="Api.html">Api(weather app)</a></li>
     </div>
-    <main class="main">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAs_TDUTeHiZQ1tqLJlvItaBOjcmRTeoSbHw&s" class="main-img" alt="">
-        <div class="main-description">Shrek is not just an animated character; he's a true legend! The giant green ogre has become a symbol of how appearances and stereotypes can be deceiving. In a world full of princes and princesses, Shrek showed that real wealth lies in kindness, loyalty, and the ability to stay true to oneself despite the expectations of others. Since the release of the first movie, Shrek has won the hearts of millions. His sarcasm, sincerity, and ability to protect those he cares about have made him a true antihero. He doesn’t strive to be loved or save the world, but it’s his ordinary, simple actions that turn out to be heroic. And his friendship with Donkey is a whole story in itself! Who would have thought that the most annoying character would become one of the most loyal friends?
-
-            Shrek's story is more than just a tale of an ogre rescuing a princess. It's a story about accepting yourself and others as they are. It reminds us that happiness isn’t always found in castles and crowns but in simple things—friendship, love, and what we do for our loved ones. Shrek is a cultural icon who remains relevant through the years. With every new joke, with every adventure, he reminds us that even the most "unconventional" heroes can change the world</div>
-    </main>
-    <footer class="footer">
-        <div class="footer-block">
-            <a href="https://www.telegram.com/" class="footer-link"><img src="src/images/telegram.png" alt="" class="footer-link-img"></a>
-            <a href="https://www.instagram.com/" class="footer-link"><img src="src/images/instagram-logo.png" alt="" class="footer-link-img"></a>
-            <a href="https://www.github.com/" class="footer-link"><img src="src/images/github.png" alt="" class="footer-link-img"></a>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <div>
+          <input type="number" id="value1" placeholder="Enter first value">
+          <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+          <input type="number" id="value2" placeholder="Enter second value">
         </div>
-    </footer>
+        <button onclick="calculate()">Calculate</button>
+        <div class="result" id="result">Result:</div>
+      </div>
+
+      <div class="calculator">
+        <h1>Trigonometry Calculator</h1>
+        <div>
+          <input type="number" id="angle" placeholder="Enter angle in degrees">
+          <select id="operation2">
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tan">tan</option>
+            <option value="cot">cot</option>
+          </select>
+        </div>
+        <button onclick="calculate2()">Calculate</button>
+        <div class="result" id="result2">Result: </div>
+      </div>
     <script src="script.js"></script>
 </body>
 </html>
