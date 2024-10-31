@@ -378,4 +378,19 @@ li {
   }
 
 
+  .cities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  .cityblock {
+    width: 300px;
+    Background-color: lightcyan;
+    margin-right: 30px;
+    text-align: center;
+  }
+
   /* calculator with tan cot sin cos */

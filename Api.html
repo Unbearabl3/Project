@@ -7,7 +7,59 @@
     <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-    Calculator
+    <h2 class="heading">Website about Shrek</h2>
+    <nav class="nav">
+        <a href="index.html" class="logo"><img class="logo-img" src="src/images/logo.png" alt="#"></a>
+        <div class="nav-right">
+            <a href="pictures.html" class="nav-right_link">Pictures</a>
+            <a href="audio.html" class="nav-right_link">Audio</a>
+            <a href="video.html" class="nav-right_link">Video</a>
+            <a href="about.html" class="nav-right_link">About</a>
+            <button href="" id="buttonForOtherLinks" class="nav-right_link">Other(it`s openable)</button>
+        </div>
+    </nav>
+    <ul class="otherPc" id="otherPc">
+        <li class="otherPc-link"><a href="Form.html">Form</a></li>
+        <li class="otherPc-link"><a href="calculator.html">Calculator</a></li>
+        <li class="otherPc-link"><a href="Api.html">Api(weather app)</a></li>
+    </ul>
+    <button class="burger_button" id="buttonBurger">hamburger</button>
+    <div class="burger" id="burger">
+        <ul class="burgerList">
+            <li><a href="index.html" class="burger-link">index</a></li>
+            <li><a href="about.html" class="burger-link">about</a></li>
+            <li><a href="pictures.html" class="burger-link">pictures</a></li>
+            <li><a href="video.html" class="burger-link">videos</a></li>
+            <li><a href="audio.html" class="burger-link">audio</a></li>
+            <button id="burgerButtonForOther" class="burger-link_other">other(it`s openable)</button>            
+            <li class="buttonBurgerClose" id="buttonBurgerClose">Exit</li>
+        </ul>
+    </div>
+    <div class="burgerAdditionalMenu" id="burgerAdditionalMenu">
+        <li class="otherPc-link"><a href="Form.html">Form</a></li>
+        <li class="otherPc-link"><a href="calculator.html">Calculator</a></li>
+        <li class="otherPc-link"><a href="Api.html">Api(weather app)</a></li>
+    </div>
+    <div class="cities">
+        <div class="cityblock">
+            <h3 class="cityName">Petropavl</h3>
+            <div class="weather">
+                <p class="weather-temperature" id="Petro">25°C</p>
+            </div>
+        </div>
+        <div class="cityblock">
+            <h3 class="cityName">Tokyo</h3>
+            <div class="weather">
+                <p class="weather-temperature" id="Tokyo">25°C</p>  
+            </div>
+        </div>
+        <div class="cityblock">
+            <h3 class="cityName">London</h3>
+            <div class="weather">
+                <p class="weather-temperature" id="London">25°C</p>
+            </div>    
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
