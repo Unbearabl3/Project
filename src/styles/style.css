@@ -394,3 +394,8 @@ li {
   }
 
   /* calculator with tan cot sin cos */
+
+.anim {
+    width: 80px;
+    height: 80px;
+}
